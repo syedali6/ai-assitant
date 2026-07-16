@@ -9,9 +9,10 @@ Builds a ConversationalRetrievalChain that:
 """
 
 from typing import Dict, Any, List
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferWindowMemory
-from langchain.schema import BaseRetriever
+from langchain_classic.chains import ConversationalRetrievalChain
+from langchain_classic.memory import ConversationBufferWindowMemory
+from langchain_core.retrievers import BaseRetriever
+
 import config
 
 

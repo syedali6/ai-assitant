@@ -122,7 +122,7 @@ All settings live in `config.py` and can be overridden via `.env` or the **Advan
 | Variable | Default | Description |
 |---|---|---|
 | `LLM_PROVIDER` | `gemini` | `"gemini"` or `"openai"` |
-| `GEMINI_MODEL` | `gemini-1.5-pro` | Gemini model name |
+| `GEMINI_MODEL` | `gemini-3.5-flash` | Gemini model name |
 | `OPENAI_MODEL` | `gpt-4o` | OpenAI model name |
 | `EMBEDDING_PROVIDER` | `huggingface` | `"huggingface"` or `"openai"` |
 | `CHUNK_SIZE` | `1000` | Characters per chunk |
@@ -156,8 +156,4 @@ All settings live in `config.py` and can be overridden via `.env` or the **Advan
 - Optimised retrieval accuracy using **document chunking and embedding** techniques
 - Implemented **conversation memory** with sliding-window buffer for multi-turn Q&A
 
----
 
-## 📜 License
-
-MIT
